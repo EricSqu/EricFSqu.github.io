@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2c2c54;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1f1f3d;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#home {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#dynamic-text, #dynamic-job {
+    color: #ffdd59;
+}
+
+section {
+    padding: 50px 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.project-grid, .experience-grid, .skills-grid, .education-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project-grid div, .experience-grid div, .skills-grid div, .education-grid div {
+    margin: 10px;
+    padding: 20px;
+    background-color: #3e3e5e;
+    border-radius: 8px;
+}
